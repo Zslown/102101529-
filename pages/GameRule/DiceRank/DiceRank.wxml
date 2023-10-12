@@ -1,0 +1,38 @@
+<!--pages/GameRule/DiceRank/DiceRank.wxml-->
+<view class="view1">
+    <image src="/images/QQ图片20231008233219.jpg" style="height:160%;width:100%;"></image>
+</view>
+<view>
+    <navigator url="/pages/GameRule/GameRule" open-type="navigate">
+      <image src = "/images/群组 7@1x.png" class="index1" style="top: 145%;"></image>
+    </navigator>
+</view>
+<text style="font-size: xx-large;display: flex;justify-content: center;margin-bottom: 20%;">牌型一览</text>
+<view class="box1">
+  <text style="font-size: large;display: flex;margin-bottom: 5%;margin-top: 5%;">两对->10分</text>
+  <image src="/images/两对.png"></image>
+</view>
+<view class="box1">
+  <text style="font-size: large;display: flex;margin-bottom: 5%;margin-top: 5%;">三连->10分</text>
+  <image src="/images/三连.png"></image>
+</view>
+<view class="box1">
+  <text style="font-size: large;display: flex;margin-bottom: 5%;margin-top: 5%;">葫芦->10分</text>
+  <image src="/images/葫芦.png"></image>
+</view>
+<view class="box1">
+  <text style="font-size: large;display: flex;margin-bottom: 5%;margin-top: 5%;">四连->10分</text>
+  <image src="/images/四连.png"></image>
+</view>
+<view class="box1">
+  <text style="font-size: large;display: flex;margin-bottom: 5%;margin-top: 5%;">五连->10分</text>
+  <image src="/images/五连.png"></image>
+</view>
+<view class="box1">
+  <text style="font-size: large;display: flex;margin-bottom: 5%;margin-top: 5%;">小顺子->10分</text>
+  <image src="/images/小顺子.png"></image>
+</view>
+<view class="box1">
+  <text style="font-size: large;display: flex;margin-bottom: 5%;margin-top: 5%;">大顺子->10分</text>
+  <image src="/images/大顺子.png"></image>
+</view>

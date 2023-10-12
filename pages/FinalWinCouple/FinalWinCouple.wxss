@@ -1,0 +1,22 @@
+/* pages/FinalWinCouple/FinalWinCouple.wxss */
+.image1{
+  top: 20%;
+  position: absolute;
+  display: flex;
+  width: 30%;
+  height: 25%;
+}
+.image2{
+  top: 35%;
+  left: 40%;
+  position:absolute;
+  display: flex;
+  width: 20%;
+  height:10%;
+}
+.view2{
+  top:25%;
+  left: 40%;
+  position: absolute;
+  font-size: 100rpx;
+}

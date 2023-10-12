@@ -1,0 +1,11 @@
+<view class="view1">
+    <image src="{{imgsrc}}"style="height:100%;width:100%;"></image>
+</view>
+<view>
+    <navigator url="/pages/home/home" open-type="navigate">
+      <image src = "/images/orange.png" class="index1"></image>
+    </navigator>
+  </view>
+  <input bindinput="color">
+</input>
+<image src = "/images/q.png" bind:tap="check" style="position: absolute;width: 33%;height: 6%;top: 64%;left: 50%;"></image>

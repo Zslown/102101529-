@@ -1,0 +1,72 @@
+<!--pages/Battle/Battle.wxml-->
+<!-- 背景部分 -->
+<view class="view1">
+  <image src="/images/_925533671__5574739bc8fde09d7a829d721a1d1eec_-46278340_IMG_20231008_213035_0_xg_0.jpg"style="height:100%;width:100%;"></image>
+</view>
+<image src="/images/hutao.gif" class="img2" style = "top: 43%;left: 81%;"></image>
+<!-- <image src="/images/线条 1@1x.png" style="position: absolute;top: 50%;height: 1rpx;width: 100%;"></image> -->
+<!-- 基本信息区 -->
+<image src="/images/3215630.png" class="img2" style="top: 0%;"></image>
+<image src="/images/money.png" class="img2" style="left: 61%;top: 0%;"></image>
+<text style="position: absolute;font-size: 65rpx;top: 3%;left: 150rpx;">{{NamePlayer1}}</text>
+<text style="position: absolute;font-size: 65rpx;top: 3%;left: 80%;">{{ChipPlayer1}}</text>
+<!-- 投掷区 -->
+<view style="font-size: x-large;margin-top: 21%;">投掷区</view>
+<view class="box1">
+  <view wx:for="{{list1}}" class="box2 box-ani{{item}}">
+    <image class = "image1" src="/images/shaizi_{{item}}.png" data-key="{{index}}" data-value="{{item}}" hidden="{{HiddenFlagRollPlayer1[index]}}"></image>
+  </view>
+</view>
+<view style="font-size: x-large;margin-top: 13%;">锁定区</view>
+<!-- 锁定区 -->
+<view class="LockedArea1">
+  <block wx:for="{{LockKeyPlayer1}}">
+  <image src="/images/shaizi_{{LockValuePlayer1[index]}}.png" class="image1" bind:tap="UnlockPlayer1" data-key="{{index}}" data-value="{{item}}" hidden="{{HiddenFlagLockPlayer1[index]}}"></image>
+  </block>
+</view>
+<!-- 加倍区 -->
+  <!-- 玩家一加倍区 -->
+<image src="/images/1998544.png" bind:tap="DiceRoll" class="img2" style="top:43%;left:39%;" hidden="{{HiddenFlagAddMul%3}}"></image>
+<image src="/images/1998573.png" bind:tap="NextRow" class="img2" style="top:43%;left:39%;" hidden="{{Rows%3}}"></image>
+
+<view class="box6" hidden="{{HiddenFlagAddMul1}}"> 
+<view class="box3">
+      <image src = "/images/0.png" class="image1" bind:tap="AddMul0"></image>
+</view>
+    <view class="box3">
+      <image src = "/images/1.png" class="image1" bind:tap="AddMul1"></image>
+    </view>
+    <view class="box3">
+      <image src = "/images/2.png" class="image1" bind:tap="AddMul2"></image>
+    </view>
+    <view class="box3">
+      <image src = "/images/3.png" class="image1" bind:tap="AddMul3"></image>
+    </view>
+</view>
+<view wx:if="{{!HiddenFlagAddMul1}}" style="position:absolute;font-size:x-large;display: flex;justify-content: center;top: 63%;">请{{NamePlayer2}}加倍</view>
+<!-- 锁定区 -->
+<view class="LockedArea2">
+  <block wx:for="{{LockKeyPlayer2}}">
+  <image src="/images/shaizi_{{LockValuePlayer2[index]}}.png" class="image1" bind:tap="UnlockPlayer2" data-key="{{index}}" data-value="{{item}}" hidden="{{HiddenFlagLockPlayer2[index]}}"></image>
+  </block>
+</view>
+<view style="position:absolute;font-size: x-large;top: 73%;">锁定区</view>
+<!--投掷区 -->
+<view class="box7">
+  <view wx:for="{{list2}}" class="box2 box-ani{{item}}">
+  <image class = "image1" src="/images/shaizi_{{item}}.png" bind:tap="LockPlayer2" data-key="{{index}}" data-value="{{item}}" hidden="{{HiddenFlagRollPlayer2[index]}}"></image>
+  </view>
+</view>
+<view style="font-size: x-large;position: absolute;top:85.5%">投掷区</view>
+<text style="position: absolute;font-size: 65rpx;top: 93%;left: 150rpx;">{{NamePlayer2}}</text>
+<text style="position: absolute;font-size: 65rpx;top: 93%;left: 80%;">{{ChipPlayer2}}</text>
+<image src="{{Head}}" class="img2" style="top:90%" bind:tap="getUserProfile"></image>
+<image src="/images/money.png" class="img2" style="left: 61%;top: 88%;"></image>
+
+
+
+
+<text class="text1" style="top: 46%;left: 0%;">局数:{{RoundCurrent}}/{{Round}}局</text>
+<text class="text1" style="top: 51%;left: 0%;">倍率：{{multiple}}</text>
+<text class="text1" style="top: 28%;left: 77%;" hidden="{{!ScorePlayer1}}">分数:{{ScorePlayer1}}</text>
+<text class="text1" style="top: 68%;left: 77%;" hidden="{{!ScorePlayer2}}">分数:{{ScorePlayer2}}</text>

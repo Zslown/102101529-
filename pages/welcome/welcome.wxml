@@ -1,0 +1,5 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="view1">
+      <image src="{{imgsrc}}"style="height:100%;width:100%;" bind:tap="home"></image>
+</view>
+<image src="/images/群组 38@1x.png" style="position:absolute;width:20%;height: 5%;top: 60%;left: 65%;"></image>

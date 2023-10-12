@@ -1,0 +1,9 @@
+<!--pages/GameRule/Settlement/Settlement.wxml-->
+<view class="view1">
+    <image src="{{imgsrc}}"style="height:100%;width:100%;"></image>
+</view>
+<view>
+    <navigator url="/pages/GameRule/GameRule" open-type="navigate">
+      <image src = "/images/群组 7@1x.png" class="index1"></image>
+    </navigator>
+</view>

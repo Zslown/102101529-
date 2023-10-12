@@ -1,0 +1,19 @@
+<!--pages/home/home.wxml-->
+<view class="view1">
+    <image src="{{imgsrc}}"style="height:100%;width:100%;"></image>
+    <view class="view2">
+      <image src="/images/@1x.png" style="width:80%;height: 300rpx;" bind:tap="egg1"></image>
+  </view>
+</view>
+  <navigator url="/pages/InputAI/InputAI" open-type="navigate">
+    <image src="/images/人机对战.png"style="position: absolute;top:30% "class="img1"></image>  
+  </navigator>
+    <image src="/images/匹配对战.png" style="position: absolute;top: 45%; "class="img1"></image>
+  <navigator url="/pages/InputCouple/InputCouple" open-type="navigate">
+    <image src="/images/双人对战.png" style="position: absolute;top: 60%;"class="img1"></image>
+  </navigator>
+  <navigator url="/pages/GameRule/GameRule" open-type="navigate">
+    <image src="/images/玩转规则.png" style="position: absolute;top: 75%;"class="img1"></image>
+  </navigator>
+
+

@@ -1,0 +1,31 @@
+<!--pages/InputAI/InputAI.wxml-->
+<view class="view1">
+    <image src="{{imgsrc}}" style="width: 100%;height: 100%;"></image>
+      <text class="text1">对局设置</text>
+    <view class="view2">
+      <image src = "/images/4159736.png" class="img1"></image>
+      <text class="text2">局数:</text>
+      <input type="number" bindinput="InputRound"></input>
+    </view>
+    <view class="view3">
+      <image src = "/images/7218017.png" class="img1"></image>
+      <text class="text2">筹码:</text>
+      <input type="number" bindinput="InputChip"></input>
+    </view>
+    <text class="text4">游戏昵称：</text>
+  <view>
+    <view class="view4">
+      <text class="text3">玩家一：</text>
+      <input bindinput="InputName1"></input>
+    </view>
+    <view class="view5">
+      <text class="text3">玩家二：</text>
+      <input bindinput="InputName2"></input>
+    </view>
+  </view>
+  <view>
+    <navigator url="/pages/Battle/Battle?round={{Round}}&chips={{Chips}}&name1={{Name1}}&name2={{Name2}}" open-type="navigate">
+      <image src = "/images/群组 13 Copy 1@1x.png" class="index2"></image>
+    </navigator>
+  </view>
+</view>

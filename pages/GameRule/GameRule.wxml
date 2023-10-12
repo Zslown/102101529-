@@ -1,0 +1,23 @@
+<!--pages/GameRule/GameRule.wxml-->
+<view class="view1">
+    <image src="{{imgsrc}}"style="height:100%;width:100%;"></image>
+    <view class="view2">
+      <image src="/images/@)65TH@Q~T2)X8N{_Z6}KW.png" style="width: 60%;height: 100%;"></image>
+    </view>
+</view>
+<view class="view3">
+  <navigator url="/pages/GameRule/BasicRule/BasicRule" open-type="navigate">
+    <image src="/images/基本规则.png" class="img1"></image>
+  </navigator>
+  <navigator url="/pages/GameRule/DiceRank/DiceRank" open-type="navigate">
+    <image src="/images/牌型一览.png" class="img2"></image>
+  </navigator>
+  <navigator url="/pages/GameRule/Settlement/Settlement" open-type="navigate">
+    <image src="/images/结算规则.png" class="img2"></image>
+  </navigator>
+</view>
+<view>
+    <navigator url="/pages/home/home" open-type="navigate">
+      <image src = "/images/orange.png" class="index1"></image>
+    </navigator>
+  </view>

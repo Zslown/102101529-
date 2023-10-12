@@ -1,0 +1,21 @@
+<!--pages/FinalWinCouple/FinalWinCouple.wxml-->
+<view class="view1">
+    <image src="{{imgsrc}}"style="height:100%;width:100%;"></image>
+</view>
+<view>
+    <navigator url="/pages/home/home" open-type="navigate">
+      <image src = "/images/orange.png" class="index1"></image>
+    </navigator>
+</view>
+<view>
+  <image src="/images/金奖杯.png" class="image1"></image>
+  <view class="view2">{{winner}}</view>
+  <!-- <image src="/images/money.png" class="image2"></image> -->
+  <!-- <view class="view2" style="top:35% ;left:65% ;">{{chipwin}}</view> -->
+</view>
+<view>
+  <image src="/images/银奖杯.png" class="image1"style="top:50%"></image>
+  <view class="view2"style="top:55%">{{loser}}</view>
+  <!-- <image src="/images/money.png" class="image2"style="top:65%"></image>
+  <view class="view2" style="top: 65%;left: 65%;">{{chiplose}}</view> -->
+</view>

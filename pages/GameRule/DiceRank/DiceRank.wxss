@@ -1,0 +1,12 @@
+/* pages/GameRule/DiceRank/DiceRank.wxss */
+image{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 150rpx;
+
+}
+.box{
+  position: relative;
+  display: flex;
+}

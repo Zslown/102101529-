@@ -1,0 +1,164 @@
+/* pages/Battle/Battle.wxss */
+.box1{
+  position: absolute;
+  margin-top: -13%;
+  display: flex;
+  justify-content: center;
+  height: 200rpx;
+  width: 100%;
+}
+.box2{
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+  margin-left: 30rpx;
+}
+.box3{
+  margin-top: 0%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: 80rpx;
+  align-items: center;
+  left: -4%;
+}
+.box5{
+  top: 38%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 130rpx;
+  width: 100%;
+}
+.box6{
+  top:55%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 130rpx;
+  width: 100%;
+}
+.box7{
+  position: absolute;
+  top: 73%;
+  display: flex;
+  justify-content: center;
+  height: 200rpx;
+  width: 100%;
+}
+.image1{
+  height: 100rpx;
+  width: 100rpx;
+}
+.img2{
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: right;
+  width: 19%;
+  height: 11%;
+}
+.text1{
+  position:absolute;
+  font-size:x-large;
+  display: flex;
+  justify-content: center;
+
+}
+.LockedArea1{
+  display: flex;
+  height: 100rpx;
+  width: 100%;
+  justify-content: left;
+}
+.LockedArea2{
+  position:absolute;
+  margin-left: 0%;
+  display: flex;
+  justify-content: left;
+  height: 100rpx;
+  width: 100%;
+  top: 67%;
+}
+@keyframes rotateMove-1 {
+  0% {top: 14%;left: 20%;transform: rotate(0deg);}
+  10% {top: 40%;left: 20%;transform: rotate(0deg);}
+  25% {top: 20%;left: 40%;transform: rotate(-180deg);}
+  40% {top: 26%;left: 50%;transform: rotate(-360deg);}
+  60% {top: 40%;left: 55%;transform: rotate(-720deg);}
+  80% {top: 57%;left: 40%;transform: rotate(-1080deg);}
+  100% {top: 45%;left: 25%;transform: rotate(-1440deg);}
+  }
+  
+  @keyframes rotateMove-2
+  {
+  0% {top: 14%;left: 35%;transform: rotate(0deg);}
+  10% {top: 40%;left: 35%;transform: rotate(0deg);}
+  25% {top: 45%;left: 20%;transform: rotate(180deg);}
+  40% {top: 51%;left: 40%;transform: rotate(360deg);}
+  60% {top: 45%;left: 55%;transform: rotate(720deg);}
+  80% {top: 40%;left: 40%;transform: rotate(1080deg);}
+  100% {top: 40%;left: 40%;transform: rotate(1440deg);}
+  }
+  
+  @keyframes rotateMove-3
+  {
+  0% {top:14%;left:50%;transform:rotate(-0deg);}
+  10% {top:40%;left:50%;transform:rotate(-0deg);}
+  25% {top:45%;left:20%;transform:rotate(-180deg);}
+  40% {top:28%;left:40%;transform:rotate(-360deg);}
+  60% {top:37%;left:55%;transform:rotate(-720deg);}
+  80% {top:45%;left:40%;transform:rotate(-1080deg);}
+  100% {top:42%;left:56%;transform:rotate(-1440deg);}
+  }
+  
+  @keyframes rotateMove-4
+  {
+  0% {top:28%;left:20%;transform:rotate(0deg);}
+  10% {top:52%;left:20%;transform:rotate(0deg);}
+  25% {top:34%;left:40%;transform:rotate(180deg);}
+  40% {top:43%;left:50%;transform:rotate(360deg);}
+  60% {top:54%;left:35%;transform:rotate(720deg);}
+  80% {top:45%;left:20%;transform:rotate(1080deg);}
+  100% {top:60%;left:30%;transform:rotate(1440deg);}
+  }
+  
+  @keyframes rotateMove-5
+  {
+  0% {top:28%;left:35%;transform:rotate(-0deg);}
+  10% {top:52%;left:35%;transform:rotate(-0deg);}
+  25% {top:54%;left:50%;transform:rotate(-180deg);}
+  40% {top:34%;left:40%;transform:rotate(-360deg);}
+  60% {top:45%;left:35%;transform:rotate(-720deg);}
+  80% {top:55%;left:50%;transform:rotate(-1080deg);}
+  100% {top:56%;left:45%;transform:rotate(-1440deg);}
+  }
+  
+  @keyframes rotateMove-6
+  {
+  0% {top:28%;left:50%;transform:rotate(0deg);}
+  10% {top:52%;left:50%;transform:rotate(0deg);}
+  25% {top:40%;left:60%;transform:rotate(180deg);}
+  40% {top:43%;left:30%;transform:rotate(360deg);}
+  60% {top:57%;left:55%;transform:rotate(720deg);}
+  80% {top:55%;left:30%;transform:rotate(1080deg);}
+  100% {top:55%;left:63%;transform:rotate(1440deg);}
+  }
+.box-ani1{
+  animation: rotateMove-1 0.6s linear;
+}
+.box-ani2{
+  animation: rotateMove-2 0.6s linear;
+}
+.box-ani3{
+  animation: rotateMove-3 0.6s linear;
+}
+.box-ani4{
+  animation: rotateMove-4 0.6s linear;
+}
+.box-ani5{
+  animation: rotateMove-5 0.6s linear;
+}
+.box-ani6{
+  animation: rotateMove-6 0.6s linear;
+}

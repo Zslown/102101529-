@@ -1,0 +1,8 @@
+<view class="view1">
+    <image src="{{imgsrc}}"style="height:100%;width:100%;"></image>
+</view>
+<view>
+  <navigator url="/pages/home/home" open-type="navigate">
+    <image src = "/images/play.png" style="position: absolute;width: 50%;height: 20%;top:82%;left:25%"></image>
+  </navigator>
+</view>

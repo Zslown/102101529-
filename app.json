@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/Battle/Battle",
+    "pages/BattleAI/BattleAI",
+    "pages/BattleOL/BattleOL",
+    "pages/GameRule/GameRule",
+    "pages/GameRule/BasicRule/BasicRule",
+    "pages/GameRule/DiceRank/DiceRank",
+    "pages/GameRule/Settlement/Settlement",
+    "pages/InputCouple/InputCouple",
+    "pages/InputAI/InputAI",
+    "pages/FinalWin/FinalWin",
+    "pages/FinalLose/FinalLose", 
+    "pages/FinalWinCouple/FinalWinCouple",
+    "pages/FinalLoseCouple/FinalLoseCouple",
+    "pages/egg1/egg1",
+    "pages/egg2/egg2"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "清淞一掷",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

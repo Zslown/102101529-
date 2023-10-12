@@ -1,0 +1,11 @@
+/* pages/egg2/egg2.wxss */input
+{
+  position: absolute;
+  z-index: 5;
+  width: 33%;
+  top: 64%;
+  left: 15%;
+  background-color: white;
+  height: 6%;
+  border:2px solid green;
+}

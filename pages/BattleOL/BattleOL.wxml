@@ -1,0 +1,5 @@
+<!--pages/BattleOL/BattleOL.wxml-->
+<block style="position: absolute;">
+  <text style="margin-left: 0%;font-size: 65rpx;">zslown </text>
+  <text style="font-size: 60rpx;margin-left: 50%;">1000</text>
+</block>
